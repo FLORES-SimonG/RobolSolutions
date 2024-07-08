@@ -200,7 +200,7 @@ export default function Home() {
           </div>
         </div>
         <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
-          <Image src="/placeholder.png" alt="img" width={200} height={200} />
+          <Image src="/placeholder.png" alt="img" width={800} height={800} />
         </div>
         <div className="bg-white text-black">
           <div className="mx-auto flex flex-col items-center px-5 pt-56 lg:flex-row">
@@ -216,13 +216,13 @@ export default function Home() {
               </p>
             </div>
             <div className="lg:w-full lg:max-w-2xl">
-              <Image src="/placeholder.png" alt="img" width={200} height={200} />
+              <Image src="/placeholder.png" alt="img" width={800} height={800} />
             </div>
           </div>
           <div className="mt-32">
             <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
               <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
-                <Image src="/placeholder.png" alt="img"  width={200} height={200}/>
+                <Image src="/placeholder.png" alt="img"  width={800} height={800}/>
               </div>
               <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-24 lg:pt-24">
                 <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
@@ -235,7 +235,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
-                <Image src="/placeholder.png" alt="img" width={200} height={200} />
+                <Image src="/placeholder.png" alt="img" width={800} height={800} />
               </div>
             </div>
           </div>
@@ -256,18 +256,18 @@ export default function Home() {
                 <Image
                   src="/placeholder.png"
                   className="hidden object-cover object-center lg:inline-block"
-                  alt="image" width={200} height={200}
+                  alt="image" width={800} height={800}
                 />
                 <Image
                   src="/placeholder.png"
                   className="inline-block object-cover object-center lg:hidden"
-                  alt="image" width={200} height={200}
+                  alt="image" width={800} height={800}
                 />
               </div>
             </div>
           </div>
           <div className="mx-auto">
-            <div className="max-w-8xl mx-auto px-5 py-24 lg:px-24">
+            <div className="max-w-8xl mx-auto px-5 py-24 lg:px-24 flex flex-col justify-center items-center">
               <div className="my-6 flex w-full flex-col text-left lg:text-center">
                 <h3 className="mb-8 text-5xl font-bold text-black">
                   Dui tellus quis magna id ultricies eu sed.
@@ -278,16 +278,16 @@ export default function Home() {
                   accumsan arcu, aenean viverra penatibus quis. Laoreet.
                 </h3>
               </div>
-              <Image src="/placeholder.png" alt="img"  width={200} height={200}/>
+              <Image src="/placeholder.png" alt="img"  width={800} height={800}/>
             </div>
           </div>
           <div className="text-black">
             <div className="max-w-8xl mx-auto flex flex-col px-5 py-48 text-black lg:flex-row">
-              <div className="lg:mb-0 lg:w-full lg:max-w-xl">
+              <div className="lg:mb-0 lg:w-full lg:max-w-xl  flex items-center justify-center">
                 <Image
-                  className="rounded object-cover object-center"
+                  className="rounded object-cover object-center "
                   alt="image"
-                  src="/placeholder1.png" width={200} height={200}
+                  src="/logo.svg" width={800} height={800}
                 />
               </div>
               <div className="items-left flex flex-col pt-16 text-left lg:w-1/2 lg:flex-grow lg:items-start  lg:pl-48 lg:text-left">
