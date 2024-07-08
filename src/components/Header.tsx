@@ -24,17 +24,17 @@ export default function Header() {
         </div>
         <div className="flex items-center">
           <div className="hidden py-1 text-right xl:inline-block">
-            <a
+            {/* <a
               className="inline-flex items-center px-12 py-3 mt-2 text-lg font-semibold tracking-tighter text-black"
               href="/"
             >
               Log in
-            </a>
+            </a> */}
             <a
               className="inline-flex items-center px-8 py-3 mt-2 text-lg font-semibold tracking-tighter text-white bg-blue-800"
               href="/"
             >
-              Request a demo
+              Log in
             </a>
           </div>
           <button className="pl-4 pr-12">
