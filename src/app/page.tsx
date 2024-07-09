@@ -39,7 +39,7 @@ export default function Home() {
             <div className="mx-auto px-5 py-24 lg:px-24">
               <div className="my-10 flex w-full flex-col text-center">
                 <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                  Companías y agrupaciones que confiaron en nosotros
+                  Companías y agrupaciones que confiaron en nosotros.
                 </h2>
               </div>
               <div
