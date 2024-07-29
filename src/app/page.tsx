@@ -12,8 +12,8 @@ export default function Home() {
               </h2>
 
               <p className=" max-w-2xl text-xl font-semibold text-gray-700">
-                Y acompañamos <span className=" underline font-bold text-blue-800">tu proyecto</span>{" "}
-                 a la transformación digital.
+                Y acompañamos <span className=" underline font-bold ">tu</span>{" "}
+                proyecto a la transformación digital.
               </p>
             </div>
             {/* <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6 ">
@@ -44,12 +44,68 @@ export default function Home() {
               />
             </div> */}
           </div>
-          <div className="mt-0 bg-white ">
-            <div className="min-w-min  flex ">
+          <div className=" bg-white ">
+          <div className="text-black h-screen">
+              <div
+                className="
+              max-w-9xl
+              mx-auto
+              flex
+              flex-col
+              items-center
+              justify-center
+              px-5
+            "
+              >
+                <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
+                  <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
+                    Ofrecemos calidad y eficiencia.
+                  </h2>
+                  <p className="mb-4 text-lg leading-relaxed">
+                    Nuestro equipo internacional está conformado por
+                    profesionales con experiencia en el desarrollo de software y
+                    aplicaciones web. Nos especializamos en la creación de
+                    soluciones digitales a medida para empresas y organizaciones
+                    de todo tipo.
+                  </p>
+                  <a href="/" className="underline-blue font-semibold">
+                    Más sobre nosotros
+                  </a>
+                </div>
+                <Image
+                  className="
+              mb-24
+              rounded
+              object-cover object-center
+              "
+                  src="https://images.pexels.com/photos/3228682/pexels-photo-3228682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="img"
+                  width={630}
+                  height={325}
+                />
+
+                <Image
+                  className="
+              mb-24
+              inline-block
+              w-5/6
+              rounded
+              object-cover object-center
+              lg:hidden
+              lg:w-4/6 
+            "
+                  src="/placeholder.png"
+                  alt="img"
+                  width={200}
+                  height={200}
+                />
+              </div>
+            </div>
+            <div className="min-w-min  flex h-screen ">
               <div className="mx-auto px-5 py-24 lg:px-24">
                 <div className="my-10 flex w-full flex-col text-center">
                   <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                    Companías y agrupaciones que confiaron en nosotros.
+                    Companías y agrupaciones que confiaron en nosotros
                   </h2>
                 </div>
                 <div
@@ -114,84 +170,29 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="my-12 flex w-full flex-col pl-8 text-center">
-                  <a
-                    href="/"
+                <div className="  flex w-full justify-center  text-center">
+                  <button
                     className="
-                  underline-blue
-                  mb-8
-                  mt-6
-                  text-xl
-                  font-bold
-                  text-black
+                    bg-blue-800
+                    hover:bg-blue-700
+                    text-white
+                    font-bold
+                    rounded
+                    transition
+                    my-12
+                    
+                    px-8
+                    py-3
+                    text-lg
+                    
                 "
                   >
-                    Ver más.
-                  </a>
+                    Ver más
+                  </button>
                 </div>
               </div>
             </div>
-            <div className="text-black">
-              <div
-                className="
-              max-w-9xl
-              mx-auto
-              flex
-              flex-col
-              items-center
-              justify-center
-              px-5
-            "
-              >
-                <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
-                  <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
-                    Sem enim cursus orci at.
-                  </h2>
-                  <p className="mb-4 text-lg leading-relaxed">
-                    In ullamcorper magna nunc, non molestie augue feugiat eget.
-                    Mauris, vitae et, vitae et cursus amet tincidunt feugiat
-                    nulla. Senectus maecenas diam risus sodales dictum eu. Eget
-                    cursus sit bibendum pulvinar faucibus vitae nam sed.
-                    Faucibus vel laoreet.
-                  </p>
-                  <a href="/" className="underline-blue font-semibold">
-                    Learn more
-                  </a>
-                </div>
-                <Image
-                  className="
-                lg:w-5/7
-                mb-40
-                hidden
-                w-5/6
-                rounded object-cover
-                object-center
-                lg:inline-block 
-                lg:w-4/6
-              "
-                  src="/placeholder.png"
-                  alt="img"
-                  width={200}
-                  height={200}
-                />
-
-                <Image
-                  className="
-              mb-24
-              inline-block
-              w-5/6
-              rounded
-              object-cover object-center
-              lg:hidden
-              lg:w-4/6 
-            "
-                  src="/placeholder.png"
-                  alt="img"
-                  width={200}
-                  height={200}
-                />
-              </div>
-            </div>
+           
           </div>
           <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
             <div className="my-3 flex w-full flex-col text-left lg:text-center">
