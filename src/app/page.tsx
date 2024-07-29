@@ -12,8 +12,8 @@ export default function Home() {
               </h2>
 
               <p className=" max-w-2xl text-xl font-semibold text-gray-700">
-                Y acompañamos <span className=" underline font-bold">tu</span>{" "}
-                proyecto a la transformación digital.
+                Y acompañamos <span className=" underline font-bold text-blue-800">tu proyecto</span>{" "}
+                 a la transformación digital.
               </p>
             </div>
             {/* <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6 ">
