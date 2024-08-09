@@ -1,4 +1,7 @@
 import Image from "next/image";
+import CompaniesSection from "@/components/CompaniesSection";
+import OurServiceSection from "@/components/OurServiceSection";
+import AboutUsSection from "@/components/AboutUsSection";
 
 export default function Home() {
   return (
@@ -44,220 +47,59 @@ export default function Home() {
               />
             </div> */}
           </div>
-          <div className=" bg-white ">
-            <div className="text-black h-screen">
-              <div
-                className="
-              max-w-9xl
-              mx-auto
-              flex
-              flex-col
-              items-center
-              justify-center
-              px-5
-            "
-              >
-                <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
-                  <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
-                    Ofrecemos calidad y eficiencia.
-                  </h2>
-                  <p className="mb-4 text-lg leading-relaxed">
-                    Nuestro equipo internacional está conformado por
-                    profesionales con experiencia en el desarrollo de software y
-                    aplicaciones web. Nos especializamos en la creación de
-                    soluciones digitales a medida para empresas y organizaciones
-                    de todo tipo.
-                  </p>
-                  <a href="/" className="underline-blue font-semibold">
-                    Más sobre nosotros
-                  </a>
-                </div>
-                <Image
-                  className="
-              mb-24
-              rounded
-              object-cover object-center
-              "
-                  src="https://images.pexels.com/photos/3228682/pexels-photo-3228682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="img"
-                  width={630}
-                  height={325}
-                />
-
-                <Image
-                  className="
-              mb-24
-              inline-block
-              w-5/6
-              rounded
-              object-cover object-center
-              lg:hidden
-              lg:w-4/6 
-            "
-                  src="/placeholder.png"
-                  alt="img"
-                  width={200}
-                  height={200}
-                />
-              </div>
-            </div>
-            <div className="min-w-min  flex h-screen ">
-              <div className="mx-auto px-5 py-24 lg:px-24">
-                <div className="my-10 flex w-full flex-col text-center">
-                  <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                    Companías y agrupaciones que confiaron en nosotros
-                  </h2>
-                </div>
-                <div
-                  className="
-                grid grid-cols-2
-                gap-16
-                text-center
-                lg:grid-cols-6"
-                >
-                  <div className="hidden items-center justify-center lg:inline-block">
-                    <Image
-                      src="/logoAlltagsAutoExclusive.svg"
-                    
-                      alt="Segment"
-                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                  <div className="hidden items-center justify-center lg:inline-block">
-                    <Image
-                      src="/logoONG.svg"
-                      alt="Segment"
-                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src="/logoAlltagsAuto.svg"
-                      alt="Segment"
-                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src="/segment.png"
-                      alt="Segment"
-                      className="block h-24 object-contain bg-black/15 p-2 rounded-md "
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                  <div className="hidden items-center justify-center lg:inline-block">
-                    <Image
-                      src="/segment.png"
-                      alt="Segment"
-                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                  <div className="hidden items-center justify-center lg:inline-block">
-                    <Image
-                      src="/segment.png"
-                      alt="Segment"
-                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                </div>
-                <div className="  flex w-full justify-center  text-center">
-                  <button
-                    className="
-                    bg-blue-800
-                    hover:bg-blue-700
-                    text-white
-                    font-bold
-                    rounded
-                    transition
-                    my-12
-                    
-                    px-8
-                    py-3
-                    text-lg
-                    
-                "
-                  >
-                    Ver más
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
             <div className="my-3 flex w-full flex-col text-left lg:text-center">
               <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
-                Lorem ipsum elit sit unar,{" "}
-                <br className="hidden lg:inline-block" />
-                consectetur adipiscing elit.
+                Eleva tus ideas, <br className="hidden lg:inline-block" />
+                conéctate con el mundo.
               </h2>
             </div>
             <div className="flex w-full flex-col text-left lg:text-center">
               <h3 className="text-2xl text-black">
-                Lorem ipsum arcu, consectetur adipiscing elit. Viverra elementum
-                pellentesque <br className="hidden lg:inline-block" />
-                tortor, luctus blandit sed dolor et, semper. Posuere vitae
-                vitae, ac mus. Arcu quis feugiat.
+                Te ayudaremos a desarrollar tu proyecto a lo más alto para que
+                <br className="hidden lg:inline-block" />
+                puedas obtener:
               </h3>
             </div>
             <div className="flex w-full flex-row justify-center pt-24 text-center">
-              <a
-                href="/"
-                className="underline-blue px-8 text-xl font-semibold text-black"
-              >
-                Ut eleifend.
-              </a>
-              <a
-                href="/"
-                className="underline-gray px-6 text-xl font-semibold text-gray-700"
-              >
-                Tempus in.
-              </a>
+              <span className="underline-blue px-8 text-xl font-semibold text-black">
+                Más ventas
+              </span>
+              <span className="underline-blue px-8 text-xl font-semibold text-black">
+                Nuevos clientes
+              </span>
+              <span className="underline-blue px-8 text-xl font-semibold text-black">
+                1er lugar en Google
+              </span>
+              <span className="underline-gray px-6 text-xl font-semibold text-black">
+                Más consultas
+              </span>
+              <span className="underline-gray px-6 text-xl font-semibold text-black">
+                Mayores ganancias
+              </span>
             </div>
           </div>
           <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
-            <Image src="/placeholder.png" alt="img" width={800} height={800} />
+            <Image
+              src="https://images.pexels.com/photos/8117534/pexels-photo-8117534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="img"
+              width={800}
+              height={800}
+            />
           </div>
+          <CompaniesSection />
+          {/* <OurServiceSection/> */}
           <div className="bg-white text-black">
-            <div className="mx-auto flex flex-col items-center px-5 pt-56 lg:flex-row">
-              <div className="mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start  lg:pr-6">
-                <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
-                  Bibendum tortor et sit convallis nec morbi.
-                </h2>
-                <p className="font-3xl mb-8 font-semibold leading-relaxed">
-                  Lorem ipsum auctor sit amet, consectetur adipiscing elit. Sit
-                  a egestas tortor viverra nisl, in non. Neque viverra
-                  sollicitudin amet volutpat auctor amet. Aliquam pellentesque
-                  condimentum mauris sit tincidunt egestas ullamcorper sit.{" "}
-                </p>
-              </div>
-              <div className="lg:w-full lg:max-w-2xl">
-                <Image
-                  src="/placeholder.png"
-                  alt="img"
-                  width={800}
-                  height={800}
-                />
-              </div>
-            </div>
+            <AboutUsSection />
             <div className="mt-32">
               <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
                 <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
                   <Image
-                    src="/placeholder.png"
-                    alt="img"
-                    width={800}
-                    height={800}
+                   src="https://images.pexels.com/photos/5717716/pexels-photo-5717716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                   alt="img"
+                    width={650}
+                    height={400}
                   />
                 </div>
                 <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-24 lg:pt-24">
