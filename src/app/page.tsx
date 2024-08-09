@@ -45,7 +45,7 @@ export default function Home() {
             </div> */}
           </div>
           <div className=" bg-white ">
-          <div className="text-black h-screen">
+            <div className="text-black h-screen">
               <div
                 className="
               max-w-9xl
@@ -117,18 +117,28 @@ export default function Home() {
                 >
                   <div className="hidden items-center justify-center lg:inline-block">
                     <Image
-                      src="/segment.png"
+                      src="/logoAlltagsAutoExclusive.svg"
+                    
                       alt="Segment"
-                      className="block h-24 object-contain"
+                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
                       width={200}
                       height={200}
                     />
                   </div>
                   <div className="hidden items-center justify-center lg:inline-block">
                     <Image
-                      src="/segment.png"
+                      src="/logoONG.svg"
                       alt="Segment"
-                      className="block h-24 object-contain"
+                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
+                      width={200}
+                      height={200}
+                    />
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <Image
+                      src="/logoAlltagsAuto.svg"
+                      alt="Segment"
+                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
                       width={200}
                       height={200}
                     />
@@ -137,16 +147,7 @@ export default function Home() {
                     <Image
                       src="/segment.png"
                       alt="Segment"
-                      className="block h-24 object-contain"
-                      width={200}
-                      height={200}
-                    />
-                  </div>
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src="/segment.png"
-                      alt="Segment"
-                      className="block h-24 object-contain"
+                      className="block h-24 object-contain bg-black/15 p-2 rounded-md "
                       width={200}
                       height={200}
                     />
@@ -155,7 +156,7 @@ export default function Home() {
                     <Image
                       src="/segment.png"
                       alt="Segment"
-                      className="block h-24 object-contain"
+                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
                       width={200}
                       height={200}
                     />
@@ -164,7 +165,7 @@ export default function Home() {
                     <Image
                       src="/segment.png"
                       alt="Segment"
-                      className="block h-24 object-contain"
+                      className="block h-24 object-contain bg-black/15 p-2 rounded-md"
                       width={200}
                       height={200}
                     />
@@ -192,7 +193,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-           
           </div>
           <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
             <div className="my-3 flex w-full flex-col text-left lg:text-center">

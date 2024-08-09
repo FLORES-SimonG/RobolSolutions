@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="flex flex-row items-center justify-between px-4     ">
+    <div className="absolute top-0 w-full py-3 flex flex-row items-center justify-between px-4     ">
       <a href="/" className="text-3xl font-bold text-black align-middle">
         <Image src="/logo.svg" alt="Robol Solutions" width={200} height={200} />
       </a>
