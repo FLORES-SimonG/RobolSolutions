@@ -29,7 +29,7 @@ export default function CompaniesSection() {
                   </div>
                   <div className="hidden items-center justify-center lg:inline-block">
                     <Image
-                      src="/logoONG.svg"
+                      src="/LogoONG.svg"
                       alt="Segment"
                       className="block h-24 object-contain bg-white/45 p-2 rounded-md"
                       width={400}
